@@ -1,0 +1,114 @@
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	padding: 25px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.light-mode {
+	background-color: whitesmoke;
+	color: black;
+	transition-duration: 0.35s;
+}
+
+.dark-mode {
+	background-color: #2a2d32;
+	color: #D2D2D2;
+	transition-duration: 0.35s;
+}
+
+.nav-button {
+	padding: 15px;
+	border: none;
+	font-size: auto;
+	height: 60px;
+	width: 60px;
+	position: fixed;
+	display: flex;
+	align-content: center;
+	background-image: url("Menu.png");
+	background-color: rgba(255,255,255,0);
+}
+
+.mode-switch {
+	width: 60px;
+	height: 60px;
+	float: right;
+	border: none;
+	transition-duration: 0.35s;
+}
+
+.mode-switch:hover {
+	cursor: pointer;
+}
+
+.dark-button {
+	background-image: url("moon.png");
+	background-color: #2a2d32
+}
+
+.light-button {
+	background-image: url("sun.png");
+	background-color: whitesmoke;
+}
+
+.navPane {
+	height: 100%;
+	width: 0;
+	transition-duration: 0.75s;
+	position: fixed;
+	overflow-x: hidden;
+	background-color: #070808;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	padding-top: 69px;
+}
+
+.navPane a {
+	padding: 8px 8px 8px 32px;
+	font-size: 26px;
+	color: #4d525c;
+	display: block;
+	transition-duration: 0.25s;
+	text-decoration: none;
+}
+
+.navPane a:hover {
+	color: #F0FCFF;
+}
+
+.navPane .navClose {
+	position: absolute;
+	top: 0;
+	right: 24px;
+	font-size: 40px;
+	margin-left: 50px;
+}
+
+.invis-box {
+	display: flex;
+}
+
+.dark-img {
+	width: 40%;
+	height: 40%;
+	border-radius: 5px;
+	padding: 3px;
+	border: 3px solid rgb(245, 245, 245);
+}
+
+.light-img {
+	width: 40%;
+	height: 40%;
+	border-radius: 5px;
+	padding: 3px;
+	border: 3px solid rgb(42, 45, 50);
+}
