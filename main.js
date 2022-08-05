@@ -8,41 +8,41 @@ var img_thm = "https://pastebin.com/HMsxNAGz";
 function theme() {
 	//Setting class for the whole website
 	var thm = document.body;
-	if (thm.className == "light-mode"){
+	if (thm.className == "light-mode") {
 		thm.className = "dark-mode";
 		console.log("Successfully switched over to Dark Mode")
 	}
-	else if (thm.className == "dark-mode"){
+	else if (thm.className == "dark-mode") {
 		thm.className = "light-mode";
 		console.log("Successfully switched over to Light Mode")
 	}
-	else{
+	else {
 		thm.className = "light-mode";
 		console.log("Failure!")
 	}
 
 	//Setting class for the theme toggling button
 	var thm_btn = document.getElementById("mode_switch");
-	if (thm_btn.className == "light-button mode-switch"){
+	if (thm_btn.className == "light-button mode-switch") {
 		thm_btn.className = "dark-button mode-switch";
 		console.log("Successfully switched Button theme to Dark Mode")
 	}
-	else if (thm_btn.className == "dark-button mode-switch"){
+	else if (thm_btn.className == "dark-button mode-switch") {
 		thm_btn.className = "light-button mode-switch";
 		console.log("Successfully switched Button theme to Light Mode")
 	}
-	else{
+	else {
 		thm_btn.className = "light-button mode-switch";
 		console.log("Failure!")
 	}
-	
+
 	//Setting Image border colours(This is just a temporary work-around)
 	var img_thm = document.getElementById("img1");
-	if (thm.className == "light-mode"){
+	if (thm.className == "light-mode") {
 		img_thm.className = "light-img";
 		console.log("Successfully switched Image 1's theme to Dark Mode")
 	}
-	else if (thm.className == "dark-mode"){
+	else if (thm.className == "dark-mode") {
 		img_thm.className = "dark-img";
 		console.log("Successfully switched Image 1's theme to Light Mode")
 	}
@@ -50,13 +50,13 @@ function theme() {
 		img_thm.className = "dark-img";
 		console.log("Failure!")
 	}
-	
+
 	var img_thm = document.getElementById("img4");
-	if (thm.className == "light-mode"){
+	if (thm.className == "light-mode") {
 		img_thm.className = "light-img";
 		console.log("Successfully switched Image 4's theme to Dark Mode")
 	}
-	else if (thm.className == "dark-mode"){
+	else if (thm.className == "dark-mode") {
 		img_thm.className = "dark-img";
 		console.log("Successfully switched Image 4's theme to Light Mode")
 	}
@@ -64,14 +64,14 @@ function theme() {
 		img_thm.className = "dark-img";
 		console.log("Failure!")
 	}
-	
+
 	var img_thm = document.getElementById("img5");
 	//Lol, nice line...
-	if (thm.className == "light-mode"){
+	if (thm.className == "light-mode") {
 		img_thm.className = "light-img";
 		console.log("Successfully switched Image 5's theme to Dark Mode")
 	}
-	else if (thm.className == "dark-mode"){
+	else if (thm.className == "dark-mode") {
 		img_thm.className = "dark-img";
 		console.log("Successfully switched Image 5's theme to Light Mode")
 	}
@@ -79,13 +79,13 @@ function theme() {
 		img_thm.className = "dark-img";
 		console.log("Failure!")
 	}
-	
+
 	var img_thm = document.getElementById("img6");
-	if (thm.className == "light-mode"){
+	if (thm.className == "light-mode") {
 		img_thm.className = "light-img";
 		console.log("Successfully switched Image 6's theme to Dark Mode")
 	}
-	else if (thm.className == "dark-mode"){
+	else if (thm.className == "dark-mode") {
 		img_thm.className = "dark-img";
 		console.log("Successfully switched Image 6's theme to Light Mode")
 	}
@@ -93,13 +93,13 @@ function theme() {
 		img_thm.className = "dark-img";
 		console.log("Failure!")
 	}
-	
+
 	var img_thm = document.getElementById("img7");
-	if (thm.className == "light-mode"){
+	if (thm.className == "light-mode") {
 		img_thm.className = "light-img";
 		console.log("Successfully switched Image 7's theme to Dark Mode")
 	}
-	else if (thm.className == "dark-mode"){
+	else if (thm.className == "dark-mode") {
 		img_thm.className = "dark-img";
 		console.log("Successfully switched Image 7's theme to Light Mode")
 	}
