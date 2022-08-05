@@ -35,6 +35,21 @@ function theme() {
 		thm_btn.className = "light-button mode-switch";
 		console.log("Failure!")
 	}
+    
+    //Setting theme for nav button
+    var thm_btn = document.getElementById("menu_btn");
+	if (thm_btn.className == "nav-button-dark") {
+		thm_btn.className = "nav-button-light";
+		console.log("Successfully switched Button theme to Dark Mode")
+	}
+	else if (thm_btn.className == "nav-button-light") {
+		thm_btn.className = "nav-button-dark";
+		console.log("Successfully switched Button theme to Light Mode")
+	}
+	else {
+		thm_btn.className = "light-button mode-switch";
+		console.log("Failure!")
+	}
 
 	//Setting Image border colours(This is just a temporary work-around)
 	var img_thm = document.getElementById("img1");

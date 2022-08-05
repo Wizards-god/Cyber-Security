@@ -24,17 +24,34 @@ button {
 	transition-duration: 0.35s;
 }
 
-.nav-button {
+.nav-button-dark {
 	padding: 15px;
 	border: none;
 	font-size: auto;
 	height: 60px;
 	width: 60px;
+	float: left;
 	position: fixed;
 	display: flex;
 	align-content: center;
-	background-image: url("Menu.png");
+	background-image: url("Dark Menu.png");
 	background-color: rgba(255, 255, 255, 0);
+	background-repeat: no-repeat;
+}
+
+.nav-button-light {
+	padding: 15px;
+	border: none;
+	font-size: auto;
+	height: 60px;
+	width: 60px;
+	float: left;
+	position: fixed;
+	display: flex;
+	align-content: center;
+	background-image: url("light Menu.png");
+	background-color: rgba(255, 255, 255, 0);
+	background-repeat: no-repeat;
 }
 
 .mode-switch {
@@ -50,12 +67,12 @@ button {
 }
 
 .dark-button {
-	background-image: url("moon.png");
+	background-image: url("dark.png");
 	background-color: #2a2d32
 }
 
 .light-button {
-	background-image: url("sun.png");
+	background-image: url("light.png");
 	background-color: whitesmoke;
 }
 

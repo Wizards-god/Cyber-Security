@@ -9,17 +9,17 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 
-<body class="dark-mode">
+<body class="dark-mode" style="font-family: Helvetica, Arial, 'sans-serif'">
 	<div id="navPane" class="navPane">
 		<a href="javascript:void(0)" class="navClose" onclick="closeNav()">×</a>
-		<a href="#Home">Home</a>
-		<a href="#Safety">Safety</a>
-		<a href="#Bullying">Effects</a>
-		<a href="#Solutions_for_CB">Solutions</a>
-		<a href="#Email">Email Etiquettes</a>
-		<a href="#Do_and_Dont">Do's and Don'ts</a>
+		<a href="#Home" onclick="closeNav()">Home</a>
+		<a href="#Safety" onclick="closeNav()">Safety</a>
+		<a href="#Bullying" onclick="closeNav()">Effects</a>
+		<a href="#Solutions_for_CB" onclick="closeNav()">Solutions</a>
+		<a href="#Email" onclick="closeNav()">Email Etiquettes</a>
+		<a href="#Do_and_Dont" onclick="closeNav()">Do's and Don'ts</a>
 	</div>
-	<button onClick="openNav()" class="nav-button"></button>
+	<button onClick="openNav()" class="nav-button-dark" id="menu_btn"></button>
 	<div>
 		<button onClick="theme()" class="dark-button mode-switch" id="mode_switch"></button>
 	</div>
@@ -33,7 +33,7 @@
 			<h2 style="text-align: center">What is Cyber Security</h2>
 			<div class="invis-box" style="font-size: 140%; padding-left: 8%">
 				<img src="Cyber Safety Home.png" alt="Cyber Security" class="dark-img" id="img1">
-				<p style="padding-left: 1%">Cyber security is an all-encompassing term, which includes the tools to
+				<p style="padding-left: 1%; font-size: 110%">Cyber security is an all-encompassing term, which includes the tools to
 					secure technology, assets and personal identity in the online and mobile world.<br> Good practices
 					and tools such as anti-virus software, web-services, biometrics and secure personal devices, e.g.,
 					smart-card based USB token, the SIM card, the secure chip in payment card or an ePassport are
@@ -95,6 +95,7 @@
 			<h2 style="text-align: center">What to do if Cyberbullied</h2>
 			<div class="invis-box" style="font-size: 140%; padding-left: 8%">
 				<img src="Solution.png" alt="solution for Cyber Bullying" class="dark-img" id="img5">
+				<!--<img src="Solutions2.jpg" alt="idk" class="dark-img" id="img8">-->
 				<ul>
 					<li> <b>Do not Respond</b><br>If someone is cyber bullying you, do not respond or retaliate by doing
 						the same thing back. Responding or retaliating to cyber bullying may make matter worse or even
