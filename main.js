@@ -66,6 +66,7 @@ function theme() {
 		console.log("Failure!")
 	}
 
+	//Lol, nice line...
 	var img_thm = document.getElementById("img4");
 	if (thm.className == "light-mode") {
 		img_thm.className = "light-img";
@@ -81,7 +82,6 @@ function theme() {
 	}
 
 	var img_thm = document.getElementById("img5");
-	//Lol, nice line...
 	if (thm.className == "light-mode") {
 		img_thm.className = "light-img";
 		console.log("Successfully switched Image 5's theme to Dark Mode")
