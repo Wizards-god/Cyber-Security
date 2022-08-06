@@ -37,6 +37,7 @@ button {
 	background-image: url("Dark Menu.png");
 	background-color: rgba(255, 255, 255, 0);
 	background-repeat: no-repeat;
+	transition-duration: 0.35s;
 }
 
 .nav-button-light {
@@ -52,6 +53,7 @@ button {
 	background-image: url("light Menu.png");
 	background-color: rgba(255, 255, 255, 0);
 	background-repeat: no-repeat;
+	transition-duration: 0.35s;
 }
 
 .mode-switch {
@@ -68,12 +70,18 @@ button {
 
 .dark-button {
 	background-image: url("dark.png");
-	background-color: #2a2d32
+	background-color: rgba(42,45,50,0.00);
+	position: fixed;
+	margin-left: 90%;
+	transition-duration: 0.35s;
 }
 
 .light-button {
 	background-image: url("light.png");
-	background-color: whitesmoke;
+	background-color: rgba(245,245,245,0.00);
+	position: fixed;
+	margin-left: 90%;
+	transition-duration: 0.35s;
 }
 
 .navPane {
