@@ -35,9 +35,9 @@ function theme() {
 		thm_btn.className = "light-button mode-switch";
 		console.log("Failure!")
 	}
-    
-    //Setting theme for nav button
-    var thm_btn = document.getElementById("menu_btn");
+
+	//Setting theme for nav button
+	var thm_btn = document.getElementById("menu_btn");
 	if (thm_btn.className == "nav-button-dark") {
 		thm_btn.className = "nav-button-light";
 		console.log("Successfully switched Button theme to Dark Mode")
@@ -117,6 +117,34 @@ function theme() {
 	else if (thm.className == "dark-mode") {
 		img_thm.className = "dark-img";
 		console.log("Successfully switched Image 7's theme to Light Mode")
+	}
+	else {
+		img_thm.className = "dark-img";
+		console.log("Failure!")
+	}
+
+	var img_thm = document.getElementById("img8");
+	if (thm.className == "light-mode") {
+		img_thm.className = "light-img";
+		console.log("Successfully switched Image 8's theme to Dark Mode")
+	}
+	else if (thm.className == "dark-mode") {
+		img_thm.className = "dark-img";
+		console.log("Successfully switched Image 8's theme to Light Mode")
+	}
+	else {
+		img_thm.className = "dark-img";
+		console.log("Failure!")
+	}
+
+	var img_thm = document.getElementById("img9");
+	if (thm.className == "light-mode") {
+		img_thm.className = "light-img";
+		console.log("Successfully switched Image 9's theme to Dark Mode")
+	}
+	else if (thm.className == "dark-mode") {
+		img_thm.className = "dark-img";
+		console.log("Successfully switched Image 9's theme to Light Mode")
 	}
 	else {
 		img_thm.className = "dark-img";

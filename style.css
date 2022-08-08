@@ -50,7 +50,7 @@ button {
 	position: fixed;
 	display: flex;
 	align-content: center;
-	background-image: url("Light Menu.png");
+	background-image: url("light Menu.png");
 	background-color: rgba(255, 255, 255, 0);
 	background-repeat: no-repeat;
 	transition-duration: 0.35s;
@@ -70,7 +70,7 @@ button {
 
 .dark-button {
 	background-image: url("dark.png");
-	background-color: rgba(42,45,50,0.00);
+	background-color: rgba(42, 45, 50, 0.00);
 	position: fixed;
 	margin-left: 90%;
 	transition-duration: 0.35s;
@@ -78,7 +78,7 @@ button {
 
 .light-button {
 	background-image: url("light.png");
-	background-color: rgba(245,245,245,0.00);
+	background-color: rgba(245, 245, 245, 0.00);
 	position: fixed;
 	margin-left: 90%;
 	transition-duration: 0.35s;
